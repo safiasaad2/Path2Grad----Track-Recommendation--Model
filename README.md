@@ -9,7 +9,7 @@
 [![Encoding](https://img.shields.io/badge/Feature%20Encoding-LabelEncoder-lightgrey)]()
 [![Saved%20Model](https://img.shields.io/badge/Export-Pickle-success)]()
 
-**Graduation Project — Career Track Recommendation Model**
+**Career Track Recommendation Model**
 
 An intelligent Machine Learning project designed to recommend the most suitable **career track** for Computer Science students based on their **skills, interests, GPA, and background**.
 
@@ -32,17 +32,13 @@ The system processes and visualizes student data, encodes features, trains multi
 ## 📂 Folder Structure
 
 ```
-CS-Students-Track-Recommendation/
-├── track_recommendation.py          # Main script (data processing, EDA, training)
-├── cs_students1.csv                 # Input dataset
-├── data_visualization.png           # Main visualization file
-├── correlation_heatmap.png          # Feature correlation visualization
-├── model_comparison.png             # Model performance comparison chart
-├── track_recommendation_model.pkl   # Saved best-performing model
-├── scaler.pkl                       # Saved StandardScaler
-├── track_encoder.pkl                # Track label encoder
-├── label_encoders.pkl               # Encoders for categorical features
-└── README.md                        # Project documentation
+Path2Grad--Track-Recommendation--Model/
+├── .gitignore                       # Ignore IDE and data-related temporary files
+├── LICENSE                          # MIT License information
+├── README.md                        # Project documentation 
+├── SurveyModel.ipynb                # Main Jupyter Notebook 
+└── requirements.txt                 # Python dependencies
+
 ```
 
 ---
@@ -68,8 +64,8 @@ CS-Students-Track-Recommendation/
 1️⃣ **Clone the repository:**
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/CS-Students-Track-Recommendation.git
-cd CS-Students-Track-Recommendation
+git clone https://github.com/safiasaad2/Path2Grad----Track-Recommendation--Model.git
+cd Path2Grad----Track-Recommendation--Model
 ```
 
 2️⃣ **Install dependencies:**
@@ -78,15 +74,12 @@ cd CS-Students-Track-Recommendation
 pip install -r requirements.txt
 ```
 
-3️⃣ **Run the main script:**
+3️⃣ Run the main notebook:
 
-```bash
-python track_recommendation.py
-```
+jupyter notebook SurveyModel.ipynb
+
 
 All visualizations and results will be saved automatically in the project folder.
-
----
 
 ## 📊 Dataset
 
@@ -100,18 +93,21 @@ This dataset includes:
 
 ---
 
-## 📈 Model Performance (Example Results)
+## 📈 Model Performance
 
-| Model               | Accuracy |
-| ------------------- | -------- |
-| Random Forest       | 0.84     |
-| SVM                 | 0.86     |
-| Gradient Boosting   | 0.82     |
-| KNN                 | 0.80     |
-| Logistic Regression | 0.78     |
+| Model                  | Accuracy | Precision | Recall   | F1       | ROC AUC |
+| ---------------------- | -------- | --------- | -------- | -------- | ------- |
+| Logistic Regression    | 0.58     | 0.36      | 0.41     | 0.35     | —       |
+| K-Nearest Neighbors    | 0.56     | 0.40      | 0.48     | 0.39     | —       |
+| Support Vector Machine | 0.67     | 0.48      | 0.50     | 0.47     | —       |
+| Random Forest          | 0.83     | 0.62      | 0.74     | 0.66     | —       |
+| Gradient Boosting      | **0.92** | **0.70**  | **0.72** | **0.71** | —       |
 
-✅ **Best Model:** Support Vector Machine (SVM)
-✅ **Accuracy:** ~86%
+---
+
+
+✅ **Best Model:** Gradient Boosting
+✅ **Accuracy:** ~91%
 
 ---
 
@@ -153,22 +149,11 @@ Sample Predictions vs Actual:
 5. Predicted: Game Development            | Actual: Game Development            ✓
 ```
 
----
-
-## 🧭 Future Improvements
-
-🔹 Apply SMOTE to balance underrepresented tracks
-🔹 Add feature importance and SHAP analysis
-🔹 Build a simple Flask or Streamlit web interface for predictions
-🔹 Collect more data for rare or emerging career tracks
-
----
-
 ## 👩‍💻 Author
 
 **Safia Saad**
-🎓 AI & Data Science Student | Passionate about ML, Deep Learning, and Career Guidance Systems
-📧 [safiasaad@example.com](mailto:safiasaad@example.com)
+🎓 AI Engineer| Passionate about AI
+📧 [safiakotb123@gmail.com](mailto:safiakotb123@gmail.com)
 
 ---
 
