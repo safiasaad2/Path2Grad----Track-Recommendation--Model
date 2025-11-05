@@ -1,5 +1,13 @@
 # 🎓 CS Students Track Recommendation System
 
+[![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Libraries](https://img.shields.io/badge/Libraries-Pandas%20%7C%20NumPy%20%7C%20Matplotlib%20%7C%20Seaborn-lightgrey)]()
+[![ML](https://img.shields.io/badge/ML-ScikitLearn-orange?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Models](https://img.shields.io/badge/Models-RF%20%7C%20SVM%20%7C%20GB%20%7C%20KNN%20%7C%20LR-yellow)]()
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen)]()
+[![Visualization](https://img.shields.io/badge/EDA-Matplotlib%20%26%20Seaborn-blueviolet)]()
+[![Encoding](https://img.shields.io/badge/Feature%20Encoding-LabelEncoder-lightgrey)]()
+[![Saved%20Model](https://img.shields.io/badge/Export-Pickle-success)]()
 
 **Graduation Project — Career Track Recommendation Model**
 
