@@ -95,19 +95,19 @@ This dataset includes:
 
 ## 📈 Model Performance
 
-| Model                  | Accuracy | Precision | Recall   | F1       | ROC AUC |
-| ---------------------- | -------- | --------- | -------- | -------- | ------- |
-| Logistic Regression    | 0.58     | 0.36      | 0.41     | 0.35     | —       |
-| K-Nearest Neighbors    | 0.56     | 0.40      | 0.48     | 0.39     | —       |
-| Support Vector Machine | 0.67     | 0.48      | 0.50     | 0.47     | —       |
-| Random Forest          | 0.83     | 0.62      | 0.74     | 0.66     | —       |
-| Gradient Boosting      | **0.92** | **0.70**  | **0.72** | **0.71** | —       |
+| Model                  | Accuracy | Precision | Recall   | F1       | 
+| ---------------------- | -------- | --------- | -------- | -------- | 
+| Logistic Regression    | 0.58     | 0.36      | 0.41     | 0.35     |
+| K-Nearest Neighbors    | 0.56     | 0.40      | 0.48     | 0.39     |
+| Support Vector Machine | 0.67     | 0.48      | 0.50     | 0.47     |
+| Random Forest          | 0.83     | 0.62      | 0.74     | 0.66     |
+| Gradient Boosting      | **0.92** | **0.70**  | **0.72** | **0.71** |
 
 ---
 
 
 ✅ **Best Model:** Gradient Boosting
-✅ **Accuracy:** ~91%
+✅ **Accuracy:** ~92%
 
 ---
 
