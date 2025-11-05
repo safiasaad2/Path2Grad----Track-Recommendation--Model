@@ -95,13 +95,13 @@ This dataset includes:
 
 ## 📈 Model Performance
 
-| Model                  | Accuracy | Precision | Recall   | F1       | 
-| ---------------------- | -------- | --------- | -------- | -------- | 
-| Logistic Regression    | 0.58     | 0.36      | 0.41     | 0.35     |
-| K-Nearest Neighbors    | 0.56     | 0.40      | 0.48     | 0.39     |
-| Support Vector Machine | 0.67     | 0.48      | 0.50     | 0.47     |
-| Random Forest          | 0.83     | 0.62      | 0.74     | 0.66     |
-| Gradient Boosting      | **0.92** | **0.70**  | **0.72** | **0.71** |
+| Model                  | Accuracy | Precision  | Recall  | F1  |
+| ---------------------- | -------- | ------------------------ | --------------------- | ----------------- |
+| Logistic Regression    | 0.58     | 0.65                     | 0.58                  | 0.56              |
+| K-Nearest Neighbors    | 0.56     | 0.71                     | 0.56                  | 0.50              |
+| Support Vector Machine | 0.67     | 0.76                     | 0.67                  | 0.68              |
+| Random Forest          | 0.83     | 0.81                     | 0.83                  | 0.81              |
+| Gradient Boosting      | **0.92** | **0.90**                 | **0.92**              | **0.91**          |
 
 ---
 
